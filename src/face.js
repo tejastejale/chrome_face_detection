@@ -72,7 +72,7 @@ const LiveFaceDetection = () => {
         ref={videoRef}
         autoPlay
         playsInline
-        className="w-full"
+        className="w-screen h-screen"
         onPlay={detectFaces}
       />
       {faceBoxes.map((box, index) => (
